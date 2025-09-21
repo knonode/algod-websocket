@@ -1,0 +1,16 @@
+{
+    "name": "algod-websocket-foss",
+    "version": "1.0.0",
+    "description": "WebSocket proxy for Algorand algod API",
+    "main": "websocket-server.js",
+    "dependencies": {
+      "ws": "^8.14.0",
+      "dotenv": "^16.3.0"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    },
+    "keywords": ["algorand", "websocket", "proxy"],
+    "author": "knonode",
+    "license": "MIT"  
+}
